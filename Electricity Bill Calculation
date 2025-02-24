@@ -1,0 +1,5 @@
+consumer_number = input("Enter consumer number: ")
+units = float(input("Enter number of units consumed: "))
+cost_per_unit = float(input("Enter cost per unit: "))
+amount = units * cost_per_unit
+print("Amount to be paid:", amount)
